@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/bantuan"
+            android:icon="@drawable/bantuan"
+            android:title="Bantuan"/>
+        <item
+            android:id="@+id/verifikator"
+            android:icon="@drawable/verifikator"
+            android:title="Verifikator" />
+        <item
+            android:id="@+id/donasi"
+            android:icon="@drawable/donasi"
+            android:title="Donasi SIP" />
+        <item
+            android:id="@+id/kutipan"
+            android:icon="@drawable/kutipan"
+            android:title="Kutipan SIP"/>
+        <item
+            android:id="@+id/laporan"
+            android:icon="@drawable/laporan"
+            android:title="Laporan"/>
+    </group>
+
+    <item android:title="Akun">
+        <menu>
+            <item
+                android:id="@+id/login2"
+                android:icon="@drawable/login"
+                android:title="Login" />
+            <item
+                android:id="@+id/register"
+                android:icon="@drawable/user"
+                android:title="Register" />
+        </menu>
+    </item>
+
+</menu>
